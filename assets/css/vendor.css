@@ -1,0 +1,9 @@
+.text-yellow {
+    color: #ffeb3b !important;
+    font-weight: bold;
+}
+
+.btn-aksi {
+    background-color:#00a152 !important;
+    font-weight: bold;
+}

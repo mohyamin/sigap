@@ -1,0 +1,66 @@
+/*================================================================================
+	Item Name: Materialize - Material Design Admin Template
+	Version: 5.0
+	Author: PIXINVENT
+	Author URL: https://themeforest.net/user/pixinvent/portfolio
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN CSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+
+
+.text-yellow {
+	color: yellow;
+}
+/* 
+.brand-sidebar h1 {
+	padding-left: 30px;
+} */
+
+.logo-wrapper span {
+	font-size: 5px;
+}
+
+.sidenav li::hover {
+	background-color: green !important;
+}
+
+.home-text {
+	margin-top: -45px;
+	font-family: Arial ;
+}
+
+.home-image img {
+	width:50%;
+}
+
+@media (max-width: 576px) { 
+	.home-image img {
+		width: 100%;
+	}
+	.home-text {
+		font-size: 30px;
+	}
+ }
+
+ .logo1 {
+	width: 35px !important;
+	height: 35px !important;
+	position: absolute;
+	top: 13px;
+	left: 15px;
+ }
+
+ .logo-text {
+	color: green !important;
+	position: absolute;	
+	left: 46px ;
+	top: 8px;
+	font-family: 'monserrat';
+ }
+ .logo-text img {
+	width: 160px !important;
+	height: 44px !important ;
+ }
