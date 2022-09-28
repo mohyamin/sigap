@@ -246,32 +246,32 @@ $(".detailKegiatan").on("click", function () {
 	});
 });
 
-// $(document).ready(function () {
-// 	$(".viewSurat").click(function () {
-// 		const id = $(this).data("id");
-// 		console.log(id);
-// 		$.ajax({
-// 			url: "http://localhost/siokta/Admin/SuratMasuk/GetViewSuratMasuk",
-// 			data: {
-// 				id: id
-// 			},
-// 			method: "post",
-// 			dataType: "json",
-// 			success: function (data) {
-// 				console.log(data.id_masuk)
-// 				// $("#no").val(data.id_kegiatan);
-// 				$("#nomasuk").html(data.id_masuk);
-// 				$("#tgl_terima").html(data.tgl_surat);
-// 				$("#no_surat").html(data.no_surat);
-// 				$("#perihal").html(data.perihal);
-// 				$("#no_agenda").html(data.no_agenda);
-// 				$("#sifat_surat").html(data.sifat_surat);
-// 				$("#kode_surat").html(data.kode_surat);
-// 				$("#tgl_terima").html(data.tgl_terima);
-// 			},
-// 		});
-// 	});
-// });
+$(document).ready(function () {
+	$(".viewSurat").click(function () {
+		const id = $(this).data("id");
+		console.log(id);
+		$.ajax({
+			url: "http://localhost/siokta/Admin/SuratMasuk/GetViewSuratMasuk",
+			data: {
+				id: id
+			},
+			method: "post",
+			dataType: "json",
+			success: function (data) {
+				console.log(data.id_masuk)
+				// $("#no").val(data.id_kegiatan);
+				$("#nomasuk").html(data.id_masuk);
+				$("#tgl_terima").html(data.tgl_surat);
+				$("#no_surat").html(data.no_surat);
+				$("#perihal").html(data.perihal);
+				$("#no_agenda").html(data.no_agenda);
+				$("#sifat_surat").html(data.sifat_surat);
+				$("#kode_surat").html(data.kode_surat);
+				$("#tgl_terima").html(data.tgl_terima);
+			},
+		});
+	});
+});
 
 $(".viewKegiatan").on("click", function () {
 	const id = $(this).data("id");
